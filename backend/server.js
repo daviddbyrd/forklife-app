@@ -20,8 +20,8 @@ app.get('/food/:query', async (req, res) => {
   const response = await axios.get(
     `https://api.edamam.com/api/food-database/v2/parser?ingr=${req.params.query}&app_id=${process.env.FOOD_APP_ID}&app_key=${process.env.FOOD_APP_KEY}`
   )
-  console.log(response.data)
-  res.json(response.data)
+  console.log(response.data.parsed[0])
+  res.json(response.data.parsed[0])
 })
 
 app.listen(PORT, () => {
