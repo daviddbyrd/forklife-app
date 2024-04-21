@@ -5,6 +5,7 @@ import RecipeView from "./views/RecipeView";
 import Diets from "./views/Diets";
 import MealPlanner from "./views/MealPlanner";
 import FoodView from "./views/FoodView";
+import Landing from './views/Landing'
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/diets" element={<Diets />} />
           <Route path="/mealplanner" element={<MealPlanner />} />
           <Route path="/food" element={<FoodView />} />
+          <Route path="/landing" element={<Landing />} />
         </Routes>
       </BrowserRouter>
     </div>

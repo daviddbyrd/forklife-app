@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="d-flex justify-content-center background vh-100">
       <div className="about d-flex flex-column align-items-center card rounded shadow">
-        <h3>About</h3>
+        <h3>About ForkLife</h3>
         <p>
           Welcome to ForkLife, where culinary excellence meets mixology mastery.
           At ForkLife, we're passionate about the art of food and cocktails, and

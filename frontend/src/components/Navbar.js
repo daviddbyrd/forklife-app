@@ -11,8 +11,9 @@ function Navbar() {
         <Link to="/recipe" className="nav-link fs-5">Recipe Search</Link>
         <Link to="/mealplanner" className="nav-link fs-5">Meal Planner</Link>
         <Link to="/diets" className="nav-link fs-5">Diets</Link> 
-        <Link to="/" className="nav-link fs-5">About</Link>
         <Link to="/food" className="nav-link fs-5">Food</Link>
+        <Link to="/landing" className="nav-link fs-5">Cocktail</Link>
+        <Link to="/" className="nav-link fs-5">About</Link>
       </div> 
     </nav>
   );
