@@ -4,8 +4,8 @@ import Food from "./Food";
 
 function FoodSearch() {
   const [food, setFood] = useState(null);
-  const [search, setSearch] = useState('steak');
-  const [query, setQuery] = useState('steak');
+  const [search, setSearch] = useState('banana');
+  const [query, setQuery] = useState('banana');
   const [error, setError] = useState('');
 
   const getFood = async () => {

@@ -4,8 +4,8 @@ import Recipe from "./Recipe";
 
 function RecipeSearch() {
   const [recipes, setRecipes] = useState([]);
-  const [search, setSearch] = useState('steak');
-  const [query, setQuery] = useState('steak');
+  const [search, setSearch] = useState('cinnamon buns');
+  const [query, setQuery] = useState('cinnamon buns');
   const [error, setError] = useState('');
 
   const getRecipes = async () => {
