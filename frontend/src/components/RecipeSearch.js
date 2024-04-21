@@ -3,16 +3,15 @@ import axios from 'axios';
 import Recipe from "./Recipe";
 
 function RecipeSearch() {
-const [recipes, setRecipes] = useState([]);
+  const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('steak');
   const [query, setQuery] = useState('steak');
   const [error, setError] = useState('');
-  const appId = "bb01cc43";
-  const appKey = "44d9336f9692046658cce6d1e6646526";
 
   const getRecipes = async () => {
     try {
-    const response = await axios.get(
+      console.log(query);
+      const response = await axios.get(
       `http://localhost:4000/recipes/${query}`
       )
       console.log(response.data);
@@ -26,10 +25,11 @@ const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
     getRecipes();
-  }, [query])
+  }, [query]);
 
   const getSearch = (e) => {
     e.preventDefault();
+    setRecipes([]);
     setQuery(search);
     setSearch('');
   }
