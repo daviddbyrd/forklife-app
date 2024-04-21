@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about {
+  margin: 20px;
+  padding: 20px;
+  width: 50%;
+  height: 50vh;
+}
+
+.background {
+  background-color: #ADFFC3;
+}
+
+.diet-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 60vw;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.diet-img {
+  max-width: 400px;
+}
+
+.forklifelogo {
+  width: 60px;
+  height: 60px
+}
+
+.meal-planner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meal-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.meal-button {
+  padding: 5px;
+}
+
+.meal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 700px;
+  margin: 20px 0px;
+  gap: 10px;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+.nutrients {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 10px 0px;
+  padding-bottom: 10px;
+}
+
+.recipe-result {
+  margin: 20px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .meal {
+      width: 400px;
+  }
+}
+
