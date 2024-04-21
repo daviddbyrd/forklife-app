@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import axios from 'axios'
 // import Wrapper from '../Assets/wrappers/CocktailPageWrap'
 // import './Cocktail.css'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 
 const singleCocktailUrl =
   'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='

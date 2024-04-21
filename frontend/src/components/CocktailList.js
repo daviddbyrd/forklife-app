@@ -16,7 +16,7 @@ const CocktailList = ({ drinks }) => {
     }
   })
   return (
-    <div>
+    <div className="cocards">
       {formattedDrinks.map((item) => {
         return <CocktailCard key={item.id} {...item} />
       })}

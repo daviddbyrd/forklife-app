@@ -14,7 +14,7 @@ const About = () => {
           food to see the nutrional information. In the Cocktail page, you can search for 
           Cocktails to make. We hope you enjoy using ForkLife!
         </p>
-        <img className="navbar-brand mb-0 w-50" src={forklifelogo} alt="forklife logo"></img>
+        <img className="navbar-brand mb-0 w-25" src={forklifelogo} alt="forklife logo"></img>
       </div>
     </div>
   )
