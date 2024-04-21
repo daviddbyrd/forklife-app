@@ -6,19 +6,13 @@ const About = () => {
       <div className="about d-flex flex-column align-items-center card rounded shadow">
         <h3>About ForkLife</h3>
         <p>
-          Welcome to ForkLife, where culinary excellence meets mixology mastery.
-          At ForkLife, we're passionate about the art of food and cocktails, and
-          we're here to elevate your dining and drinking experience to new
-          heights. Our mission is simple: to inspire and delight your palate with
-          a symphony of flavors, textures, and aromas. Whether you're a seasoned
-          foodie or a cocktail connoisseur, we invite you to embark on a journey
-          with us through the world of gastronomy. From tantalizing recipes and
-          culinary tips to innovative cocktail creations and mixology techniques,
-          ForkLife is your ultimate destination for all things delicious. Join us
-          as we explore the intersection of food and drink, celebrating the joy of
-          eating and imbibing with style and sophistication. Cheers to good food,
-          great drinks, and unforgettable moments. Welcome to ForkLife—where every
-          bite and sip is a culinary adventure.
+          ForkLife is your one stop shop for all things food and drink. We offer a number of 
+          useful services. In the Recipe page, you can search for 
+          recipes that you would like to follow. In the Meal Planner, you can get meal 
+          recommendations based on your specifications. In the Diets page, you can see 
+          information on many different types of diets. In the Food page, you can search for 
+          food to see the nutrional information. In the Cocktail page, you can search for 
+          Cocktails to make. We hope you enjoy using ForkLife!
         </p>
         <img className="navbar-brand mb-0 w-50" src={forklifelogo} alt="forklife logo"></img>
       </div>

@@ -36,7 +36,7 @@ function FoodSearch() {
 
   return (
     <div className="background d-flex justify-content-center align-items-center flex-column min-vh-100 pt-4">
-      <h1>Search recipes</h1>
+      <h1>Search food</h1>
       <div className="d-flex justify-content-center min-vh-100">
         <form onSubmit={getSearch} >
           <div className="input-group mt-3">
